@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+form input{
+    padding: 5px;
+    font-weight: 600;
+    box-shadow: 0 0 10px grey;
+    border: none;
+
+}
+
+section{
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+section li{
+    box-shadow: 0 0 2px grey;
+    padding: 5px;
+    padding: 20px 10px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+
+
+
+#delTwo,
+#delOne,
+#delThree,
+#delFour,
+#delFive{
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+
+#delTwo,
+#delOne,
+#delThree,
+#delFour,
+#delFive{
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 5px;
+    margin-left: 100px;
+}
+button{
+    color: white;
+    border: none;
+    background-color: blue;
+    padding: 5px;
+    margin-left: 20px;
+}
+button:active{
+    background-color: #1f242d;
+}
